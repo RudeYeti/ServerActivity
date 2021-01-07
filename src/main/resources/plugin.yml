@@ -1,0 +1,11 @@
+name: ${project.name}
+version: ${project.version}
+main: ${project.groupId}.${project.artifactId}.${project.name}
+depend: [CoreProtect]
+author: Rude Yeti, Incorporated
+load: POSTWORLD
+description: ${project.description}
+commands:
+  serveractivity:
+    description: serveractivity
+    aliases: [activity]
