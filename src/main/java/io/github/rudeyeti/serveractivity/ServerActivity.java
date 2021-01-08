@@ -1,6 +1,6 @@
 package io.github.rudeyeti.serveractivity;
 
-import io.github.rudeyeti.serveractivity.commands.ActivityCommand;
+import io.github.rudeyeti.serveractivity.commands.ServerActivityCommand;
 import org.bukkit.Server;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -25,6 +25,6 @@ public final class ServerActivity extends JavaPlugin {
 
         Plugins.getCoreProtect();
 
-        this.getCommand("serveractivity").setExecutor(new ActivityCommand());
+        this.getCommand("serveractivity").setExecutor(new ServerActivityCommand());
     }
 }

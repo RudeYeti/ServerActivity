@@ -8,4 +8,4 @@ description: ${project.description}
 commands:
   serveractivity:
     description: serveractivity
-    aliases: [activity]
+    aliases: [sa, activity]
