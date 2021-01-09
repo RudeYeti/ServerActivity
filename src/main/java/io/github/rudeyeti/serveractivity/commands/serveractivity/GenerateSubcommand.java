@@ -1,6 +1,6 @@
 package io.github.rudeyeti.serveractivity.commands.serveractivity;
 
-import io.github.rudeyeti.serveractivity.Generate;
+import io.github.rudeyeti.serveractivity.utils.Generate;
 import io.github.rudeyeti.serveractivity.ServerActivity;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
@@ -23,7 +23,7 @@ public class GenerateSubcommand {
                 sender.sendMessage(ChatColor.RED + "Usage: /" + label + " " + args[0] + " <time>");
             }
         } else {
-        sender.sendMessage(ChatColor.RED + "Usage: You are missing the correct permission to perform this command.");
+            sender.sendMessage(ChatColor.RED + "Usage: You are missing the correct permission to perform this command.");
         }
     }
 }

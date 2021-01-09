@@ -1,4 +1,4 @@
-package io.github.rudeyeti.serveractivity;
+package io.github.rudeyeti.serveractivity.utils;
 
 import org.apache.commons.lang.math.NumberUtils;
 import java.time.Duration;

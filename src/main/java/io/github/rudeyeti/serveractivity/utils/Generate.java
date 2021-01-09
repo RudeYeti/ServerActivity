@@ -1,5 +1,7 @@
-package io.github.rudeyeti.serveractivity;
+package io.github.rudeyeti.serveractivity.utils;
 
+import io.github.rudeyeti.serveractivity.Plugins;
+import io.github.rudeyeti.serveractivity.ServerActivity;
 import org.apache.commons.lang.math.NumberUtils;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
